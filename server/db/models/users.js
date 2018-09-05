@@ -26,10 +26,6 @@ const Users = mongoose.model('users', new Schema({
     phoneNumber: schemaTypes.string(),
   },
   inRegistrationFlow: schemaTypes.boolean({ default: false }),
-  personal: {
-    firstName: schemaTypes.string({ required: true }),
-    lastName: schemaTypes.string({ required: true }),
-  },
   resetPasswordRequest: {
     requestedAt: schemaTypes.date({ select: false }),
     token: schemaTypes.string({ select: false }),
