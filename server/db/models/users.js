@@ -152,7 +152,6 @@ module.exports.updateById = (id, values) => {
 
   const query = {
     _id: id,
-    account: user.account,
   };
 
   return Users.findOneAndUpdate(query, { $set: user }, { new: true });
