@@ -9,5 +9,5 @@ module.exports.protocol = protocol;
 module.exports.serverUrl = `${protocol}${domain}${port ? `:${port}` : ''}`;
 
 module.exports.mongo = {
-  uri: process.env.MONGOLAB_URI || 'mongodb://127.0.0.1:27017/pakrac',
+  uri: process.env.MONGOLAB_URI || 'mongodb://127.0.0.1:27017/trainingTogether',
 };

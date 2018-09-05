@@ -1,5 +1,5 @@
-const rents = require('./rents');
+const authentication = require('./authentication');
 
 module.exports = (router) => {
-  rents(router);
+  authentication(router);
 };

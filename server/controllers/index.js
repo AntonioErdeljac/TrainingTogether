@@ -1,3 +1,3 @@
-const rents = require('./rents');
+const authentication = require('./authentication');
 
-module.exports.rents = rents;
+module.exports.authentication = authentication;
